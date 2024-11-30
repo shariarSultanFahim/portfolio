@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+*{
+  font-family: "Bruno Ace", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer components{
+  .cardbg{
+    @apply bg-custom-bg bg-repeat bg-contain bg-bg bg-blend-soft-light shadow-inner-custom p-6 place-items-center place-content-center rounded-[10px] overflow-hidden;
+    
+  }
+  .primary{
+    @apply bg-grad-1 bg-clip-text text-transparent;
+  }
+}
