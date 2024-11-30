@@ -8,9 +8,9 @@ function App() {
 
 
   return (
-    <section className='max-h-screen mx-auto space-y-2 lg:space-y-4'>
+    <section className='max-h-screen mx-auto my-4 space-y-2 lg:space-y-4'>
       <Profile/>
-      <Experience/>
+      {/* <Experience/> */}
       <Skills/>
       <Works/>
     </section>

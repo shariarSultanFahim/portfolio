@@ -41,12 +41,12 @@ const Skills = () => {
         {
             skills.map((skill) => (
 
-                <div key={skill} className='cardbg text-icon'>
+                <div key={skill} className='cardbg text-icon hover-animation'>
                     {skill.icon}
                 </div>
             ))
         }
-    </div>
+        </div>
     );
 };
 

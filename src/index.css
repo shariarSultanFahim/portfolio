@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 
 *{
   font-family: "Bruno Ace", sans-serif;
@@ -16,6 +18,9 @@
   }
   .primary{
     @apply bg-grad-1 bg-clip-text text-transparent;
+  }
+  .hover-animation{
+    @apply hover:transform hover:-translate-y-1 transition-transform duration-300 ease-in-out;
   }
 }
 

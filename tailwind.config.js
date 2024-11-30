@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        sans: ['Bruno Ace','sans-serif']
+      },
       colors: {
         primary: '#00FF8F',
         icon: '#94A3B8',
@@ -16,7 +19,7 @@ export default {
         'grad-1': 'linear-gradient(to right, #00FF8F, #00A1FF)',
       },
       boxShadow: {
-        'inner-custom': 'inset 0 2px 2px  #1F2937',
+        'inner-custom': 'inset 0 0 10px  #1F2937',
       },
     },
   },
