@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 
 date-2025-08-09
 date-2025-08-09
+date-2025-08-09
